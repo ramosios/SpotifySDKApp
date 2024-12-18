@@ -52,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C1018C6B2D13482600B60CAB /* SpotifySDKApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifySDKApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		C1F319AE2D1206E600A52005 /* SpotifySDKApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifySDKApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F319B12D1206E600A52005 /* SpotifySDKAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySDKAppApp.swift; sourceTree = "<group>"; };
 		C1F319B32D1206E600A52005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,13 +95,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C1F319A52D1206E500A52005 = {
+		C1018C6C2D13487900B60CAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				C1F319E02D12843A00A52005 /* SpotifyiOS.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1F319A52D1206E500A52005 = {
+			isa = PBXGroup;
+			children = (
 				C1F319B02D1206E600A52005 /* SpotifySDKApp */,
 				C1F319C12D1206E600A52005 /* SpotifySDKAppTests */,
 				C1F319CB2D1206E600A52005 /* SpotifySDKAppUITests */,
+				C1018C6C2D13487900B60CAB /* Frameworks */,
 				C1F319AF2D1206E600A52005 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 				C1F319B32D1206E600A52005 /* ContentView.swift */,
 				C1F319B52D1206E600A52005 /* Assets.xcassets */,
 				C1F319B72D1206E600A52005 /* Preview Content */,
+				C1018C6B2D13482600B60CAB /* SpotifySDKApp-Bridging-Header.h */,
 			);
 			path = SpotifySDKApp;
 			sourceTree = "<group>";
@@ -466,6 +476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.iOS-SDK-AISong";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotifySDKApp/SpotifySDKApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -497,6 +508,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.spotify.iOS-SDK-AISong";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotifySDKApp/SpotifySDKApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
