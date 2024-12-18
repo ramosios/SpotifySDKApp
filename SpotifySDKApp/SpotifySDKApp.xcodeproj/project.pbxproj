@@ -18,9 +18,6 @@
 		C1F319E32D12843A00A52005 /* SpotifyiOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F319E02D12843A00A52005 /* SpotifyiOS.xcframework */; };
 		C1F319E42D12844B00A52005 /* SpotifyiOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F319E02D12843A00A52005 /* SpotifyiOS.xcframework */; };
 		C1F319E52D12844B00A52005 /* SpotifyiOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1F319E02D12843A00A52005 /* SpotifyiOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C1F319F02D12884900A52005 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1F319EF2D12884900A52005 /* Info.plist */; };
-		C1F319F12D12884900A52005 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1F319EF2D12884900A52005 /* Info.plist */; };
-		C1F319F22D12884900A52005 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1F319EF2D12884900A52005 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +63,7 @@
 		C1F319CC2D1206E600A52005 /* SpotifySDKAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySDKAppUITests.swift; sourceTree = "<group>"; };
 		C1F319CE2D1206E600A52005 /* SpotifySDKAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySDKAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C1F319E02D12843A00A52005 /* SpotifyiOS.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:2FNC3A47ZF:Spotify"; lastKnownFileType = wrapper.xcframework; path = SpotifyiOS.xcframework; sourceTree = "<group>"; };
-		C1F319EF2D12884900A52005 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F319F92D1291DB00A52005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +118,10 @@
 		C1F319B02D1206E600A52005 /* SpotifySDKApp */ = {
 			isa = PBXGroup;
 			children = (
+				C1F319F92D1291DB00A52005 /* Info.plist */,
 				C1F319B12D1206E600A52005 /* SpotifySDKAppApp.swift */,
 				C1F319B32D1206E600A52005 /* ContentView.swift */,
 				C1F319B52D1206E600A52005 /* Assets.xcassets */,
-				C1F319EF2D12884900A52005 /* Info.plist */,
 				C1F319B72D1206E600A52005 /* Preview Content */,
 			);
 			path = SpotifySDKApp;
@@ -262,7 +259,6 @@
 			files = (
 				C1F319B92D1206E600A52005 /* Preview Assets.xcassets in Resources */,
 				C1F319B62D1206E600A52005 /* Assets.xcassets in Resources */,
-				C1F319F02D12884900A52005 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +266,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F319F12D12884900A52005 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +273,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F319F22D12884900A52005 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +450,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SpotifySDKApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpotifySDKApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -485,6 +481,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SpotifySDKApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpotifySDKApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
